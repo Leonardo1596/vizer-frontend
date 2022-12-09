@@ -19,7 +19,7 @@ const RegisterBox = () => {
             repeatPassword: repeatPassword
         };
 
-        axios.post('https://api-vizer-authentication.herokuapp.com/auth/sign-up', body)
+        axios.post('https://vizer-backend.onrender.com/auth/sign-up', body)
             .then(response => {
                 // console.log(response.data);
                 if (response.data.message === 'Successfully registered') {
