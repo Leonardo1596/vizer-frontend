@@ -1,0 +1,20 @@
+.Watch-page {
+    color: white;
+    /* min-height: 800px; */
+    position: relative;
+    background: black;
+    z-index: 0;
+    min-height: 100vh;
+}
+
+.Watch-page .background {
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(25%);
+}

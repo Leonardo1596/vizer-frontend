@@ -1,0 +1,23 @@
+.container-movieRow {
+    margin-top: 25px;
+    color: white;
+    padding: 0 10px;
+}
+
+.container-movieRow .posters {
+    display: flex;
+}
+
+.container-movieRow .image-poster {
+    width: 14vw;
+    border-radius: 25px;
+    /* margin-right: 10px; */
+    transform: scale(0.9);
+    cursor: pointer;
+    filter: brightness(70%);
+    transition: all 0.2s;
+}
+
+.container-movieRow .image-poster:hover {
+    transform: scale(.950);
+}

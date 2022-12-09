@@ -1,0 +1,28 @@
+@media (max-width: 840px) {
+    .container-cast {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 790px) {
+    .container-cast .grid {
+        width: 75%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container-cast .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .container-cast .grid span {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-cast .grid {
+        width: 100%;
+    }
+}
+

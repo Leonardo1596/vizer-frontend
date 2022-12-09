@@ -1,0 +1,48 @@
+@media (max-width: 1080px) {
+    .container-listMovies {
+        padding: 0 30px;
+    }
+
+    .ListMovies .options {
+        flex-direction: column;
+    }
+
+    .ListMovies .options span {
+        margin-bottom: 20px;
+    }
+
+    .ListMovies .options .btn {
+        padding: 0 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container-listMovies {
+        margin-top: -90px;
+    }
+
+    .ListMovies .options-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ListMovies .options .btn {
+        width: 38vw;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 470px) {
+    .container-listMovies {
+        padding: 0 10px;
+    }
+
+    .ListMovies .options-buttons {
+        margin-left: 20px;
+    }
+
+    .ListMovies .options .btn {
+        width: 43vw;
+    }
+}

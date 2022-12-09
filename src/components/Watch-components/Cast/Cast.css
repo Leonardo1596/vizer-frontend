@@ -1,0 +1,18 @@
+.container-cast {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-cast .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    /* background: red; */
+}
+
+.container-cast .grid span {
+    /* margin-right: 40px; */
+    font-size: 13px;
+}

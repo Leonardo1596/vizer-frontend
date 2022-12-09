@@ -1,0 +1,24 @@
+.container-listItems {
+    width: 100vw;
+    min-height: 800px;
+    padding: 0 50px;
+    margin-top: 10px;
+}
+
+.container-listItems .posters {
+    text-align: center;
+}
+
+.container-listItems .image-poster {
+    width: 13vw;
+    border-radius: 25px;
+    /* margin-right: 10px; */
+    transform: scale(0.95);
+    cursor: pointer;
+    filter: brightness(65%);
+    transition: all 0.2s;
+}
+
+.container-listItems .image-poster:hover {
+    transform: scale(1);
+}

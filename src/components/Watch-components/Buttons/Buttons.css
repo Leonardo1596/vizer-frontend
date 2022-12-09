@@ -1,0 +1,38 @@
+.container-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-buttons .like,
+.seeLater {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container-buttons .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-buttons .icon {
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.container-buttons .btn {
+    background: rgba(98, 108, 117, 0.264);
+    border-radius: 25px;
+    height: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+.container-buttons .btn:hover {
+    background: rgba(121, 133, 143, 0.335)
+}

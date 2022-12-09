@@ -1,0 +1,28 @@
+.container-searchComponent {
+    padding: 20px 50px;
+    font-family: Mulish,sans-serif;
+}
+
+.container-searchComponent .input {
+    position: relative;
+}
+
+.container-searchComponent #input {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: rgba(21, 23, 30, 0.95);
+    color: white;
+    border-radius: 7px;
+    font-size: 28px;
+}
+
+.container-searchComponent .search-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 30px;
+    color: rgb(144, 144, 144);
+}

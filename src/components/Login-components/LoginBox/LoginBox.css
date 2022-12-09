@@ -1,0 +1,113 @@
+.LoginBox-component {
+    /* margin-top: -90px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.LoginBox-component .container-loginBox {
+    font-family: Mulish, sans-serif;
+    text-align: center;
+    color: #81838a;
+    width: 500px;
+}
+
+.LoginBox-component .container-loginBox .title {
+    margin-bottom: 40px;
+}
+
+.LoginBox-component .container-loginBox .title h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.LoginBox-component .container-loginBox .title span {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.LoginBox-component .container-loginBox .input {
+    position: relative;
+    margin-top: 10px;
+}
+
+.LoginBox-component .container-loginBox .icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.LoginBox-component .container-loginBox input {
+    width: 100%;
+    height: 70px;
+    background: rgba(28, 33, 37, 0.45);
+    color: white;
+    padding: 0 25px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+}
+
+.LoginBox-component .container-loginBox .forgot-password {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 20px;
+}
+
+.LoginBox-component .container-loginBox a {
+    text-decoration: none;
+    color: #81838a;
+    font-size: 12px;
+}
+
+.LoginBox-component .container-loginBox .forgot-password a:hover {
+    color: #9b9da4;
+}
+
+.LoginBox-component .container-loginBox .button {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.LoginBox-component .container-loginBox .button .icon-btn {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 22px;
+    color: rgb(191, 191, 191)
+}
+
+.LoginBox-component .container-loginBox .button .btn {
+    width: 100%;
+    height: 70px;
+    border-radius: 35px;
+    border: 2px solid rgb(247, 140, 31);
+    background: #020202;
+    color: white;
+    font-size: 18px;
+}
+
+.LoginBox-component .container-loginBox .button .btn:hover {
+    border: 3px solid rgb(247, 140, 31);
+}
+
+.LoginBox-component .container-loginBox .notAnUser {
+    font-size: 18px;
+}
+
+.LoginBox-component .container-loginBox .register {
+    color: #d7d8e0;
+    font-weight: 300;
+}
+
+.LoginBox-component .container-loginBox .register:hover {
+    color: white;
+}

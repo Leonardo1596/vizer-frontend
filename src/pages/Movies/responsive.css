@@ -1,0 +1,10 @@
+@media (max-width: 980px) {
+    .Movies-page .title {
+        padding: 0 15px;
+    }
+
+    .Movies-page .title span {
+        color: white;
+        font-size: 4vw;
+    }
+}

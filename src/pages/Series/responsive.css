@@ -1,0 +1,10 @@
+@media (max-width: 980px) {
+    .Series-page .title {
+        padding: 0 15px;
+    }
+
+    .Series-page .title span {
+        color: white;
+        font-size: 4vw;
+    }
+}

@@ -1,0 +1,19 @@
+@media (max-width: 720px) {
+    .Main .background {
+        height: 600px;
+    }
+
+    .container-main {
+        padding-top: 120px;
+    }
+
+    .Main .logo img {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 470px) {
+    .Main .options {
+        flex-direction: column;
+    }
+}

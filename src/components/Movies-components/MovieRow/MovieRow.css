@@ -1,0 +1,27 @@
+.MovieRow-moviesPage .container-movieRow {
+    margin-top: 25px;
+    color: white;
+    padding: 0 10px;
+}
+
+.MovieRow-moviesPage .container-movieRow .posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* overflow-x: hidden; */
+}
+
+.MovieRow-moviesPage .container-movieRow .image-poster {
+    width: 13.5vw;
+    border-radius: 25px;
+    /* margin-right: 10px; */
+    transform: scale(0.9);
+    cursor: pointer;
+    filter: brightness(80%);
+    transition: all 0.2s;
+}
+
+.MovieRow-moviesPage .container-movieRow .image-poster:hover {
+    transform: scale(.950);
+}

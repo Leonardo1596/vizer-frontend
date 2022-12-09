@@ -1,0 +1,15 @@
+.Movies-page {
+    background-color: #020202;
+    font-family: Mulish,sans-serif;
+    min-height: 100vh;
+}
+
+.Movies-page .title {
+    margin-top: 20px;
+    padding: 0 50px;
+}
+
+.Movies-page .title span {
+    color: white;
+    font-size: 28px;
+}
