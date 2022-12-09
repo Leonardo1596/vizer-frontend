@@ -14,7 +14,7 @@ const LoginBox = () => {
             password: password
         };
 
-        axios.post('https://api-vizer-authentication.herokuapp.com/auth/sign-in', body)
+        axios.post('https://vizer-backend.onrender.com/auth/sign-in', body)
             .then(response => {
                 console.log(response.data.message);
                 if (response.data.message === 'Successfully signed') {
